@@ -1,0 +1,1378 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.nav-principal {
+  width: 100%;
+  height: 57px;
+  background: #131921;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.nav-principal .logo {
+  border: 1px solid transparent;
+}
+.nav-principal .logo:hover {
+  border: 1px solid white;
+}
+.nav-principal .izquierda {
+  display: flex;
+  padding: 10px;
+  color: white;
+  font-size: small;
+  border: 1px solid transparent;
+}
+.nav-principal .izquierda span {
+  font-weight: bold;
+}
+.nav-principal .izquierda:hover {
+  border: 1px solid white;
+}
+
+#buscar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border: 0;
+}
+#buscar .todos {
+  height: 35px;
+  width: 50px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #D4D4D4;
+  border: 0;
+}
+#buscar .ama {
+  height: 35px;
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#lupa {
+  background-color: #FEBD69;
+  display: flex;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: none;
+  cursor: pointer;
+  margin-left: 250px;
+  border: 0;
+}
+#lupa:hover {
+  background: #F3A847;
+}
+
+#es, #hola, #devoluciones {
+  display: flex;
+  padding: 10px;
+  color: white;
+  font-size: small;
+  border: 1px solid transparent;
+}
+#es span, #hola span, #devoluciones span {
+  font-weight: bold;
+}
+#es:hover, #hola:hover, #devoluciones:hover {
+  border: 1px solid white;
+}
+
+#carrito {
+  display: flex;
+  color: white;
+  align-items: end;
+  border: 1px solid transparent;
+  padding: 5px;
+}
+#carrito:hover {
+  border: 1px solid white;
+}
+#carrito span {
+  font-weight: bold;
+  display: flex;
+  font-size: small;
+}
+
+.subnav {
+  width: 100%;
+  height: 35px;
+  background: #232F3E;
+  display: flex;
+  gap: 10px;
+}
+.subnav div {
+  display: flex;
+  font-size: smaller;
+  color: white;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 5px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.subnav div:hover {
+  border: 1px solid white;
+}
+
+#menu {
+  gap: 8px;
+  font-weight: bolder;
+  border: 1px solid transparent;
+}
+#menu:hover {
+  border: 1px solid white;
+}
+
+main {
+  height: 100%;
+  background-color: #E3E6E6;
+  background-image: linear-gradient(to top, #E3E6E6, #E3E6E6, #E3E6E6, #E3E6E6, #E3E6E6, #E3E6E6, transparent, transparent), url(https://m.media-amazon.com/images/I/61tX6L542kL._SX3000_.jpg);
+  background-position: center top;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 240px 20px;
+}
+
+.producto-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-1 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-1 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-1 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-1 #vermas:hover {
+  color: #FF9900;
+}
+.producto-1 div {
+  display: flex;
+}
+.producto-1 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-1 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-2 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-2 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-2 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-2 #vermas:hover {
+  color: #FF9900;
+}
+.producto-2 div {
+  display: flex;
+}
+.producto-2 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-2 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-2 img {
+  height: 276px;
+  width: 257px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.producto-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-3 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-3 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-3 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-3 #vermas:hover {
+  color: #FF9900;
+}
+.producto-3 div {
+  display: flex;
+}
+.producto-3 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-3 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-3 img {
+  height: 276px;
+  width: 257px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.producto-4 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-4 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-4 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-4 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-4 #vermas:hover {
+  color: #FF9900;
+}
+.producto-4 div {
+  display: flex;
+}
+.producto-4 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-4 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-4 #smart {
+  height: 150px;
+  width: 250px;
+  margin-top: 15px;
+  margin-left: 1px;
+}
+.producto-4 #imagenes {
+  gap: 10px;
+}
+.producto-4 #texto {
+  gap: 30px;
+}
+.producto-4 img {
+  height: 75px;
+  width: 75px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.producto-5 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-5 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-5 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-5 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-5 #vermas:hover {
+  color: #FF9900;
+}
+.producto-5 div {
+  display: flex;
+}
+.producto-5 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-5 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-6 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-6 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-6 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-6 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-6 #vermas:hover {
+  color: #FF9900;
+}
+.producto-6 div {
+  display: flex;
+}
+.producto-6 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-6 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-6 img {
+  height: 276px;
+  width: 257px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.producto-7 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-7 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-7 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-7 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-7 #vermas:hover {
+  color: #FF9900;
+}
+.producto-7 div {
+  display: flex;
+}
+.producto-7 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-7 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-7 img {
+  height: 276px;
+  width: 257px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.producto-8 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-8 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-8 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-8 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-8 #vermas:hover {
+  color: #FF9900;
+}
+.producto-8 div {
+  display: flex;
+}
+.producto-8 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-8 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-8 #smart {
+  height: 150px;
+  width: 250px;
+  margin-top: 15px;
+  margin-left: 1px;
+}
+.producto-8 #imagenes {
+  gap: 10px;
+}
+.producto-8 #texto {
+  gap: 30px;
+}
+.producto-8 img {
+  height: 75px;
+  width: 75px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.producto-9 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 1260px;
+  height: 270px;
+}
+.producto-9 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-9 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-9 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-9 #vermas:hover {
+  color: #FF9900;
+}
+.producto-9 div {
+  display: flex;
+}
+.producto-9 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-9 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-9 img {
+  width: 85%;
+  height: 85%;
+  margin-top: 20px;
+}
+
+.producto-10 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 1260px;
+  height: 270px;
+}
+.producto-10 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-10 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-10 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-10 #vermas:hover {
+  color: #FF9900;
+}
+.producto-10 div {
+  display: flex;
+}
+.producto-10 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-10 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+.producto-10 img {
+  width: 85%;
+  height: 85%;
+  margin-top: 20px;
+}
+
+.producto-11 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-11 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-11 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-11 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-11 #vermas:hover {
+  color: #FF9900;
+}
+.producto-11 div {
+  display: flex;
+}
+.producto-11 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-11 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-12 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-12 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-12 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-12 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-12 #vermas:hover {
+  color: #FF9900;
+}
+.producto-12 div {
+  display: flex;
+}
+.producto-12 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-12 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-13 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-13 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-13 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-13 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-13 #vermas:hover {
+  color: #FF9900;
+}
+.producto-13 div {
+  display: flex;
+}
+.producto-13 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-13 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-14 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-14 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-14 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-14 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-14 #vermas:hover {
+  color: #FF9900;
+}
+.producto-14 div {
+  display: flex;
+}
+.producto-14 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-14 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-15 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-15 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-15 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-15 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-15 #vermas:hover {
+  color: #FF9900;
+}
+.producto-15 div {
+  display: flex;
+}
+.producto-15 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-15 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-16 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-16 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-16 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-16 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-16 #vermas:hover {
+  color: #FF9900;
+}
+.producto-16 div {
+  display: flex;
+}
+.producto-16 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-16 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-17 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-17 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-17 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-17 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-17 #vermas:hover {
+  color: #FF9900;
+}
+.producto-17 div {
+  display: flex;
+}
+.producto-17 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-17 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-18 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-18 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-18 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-18 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-18 #vermas:hover {
+  color: #FF9900;
+}
+.producto-18 div {
+  display: flex;
+}
+.producto-18 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-18 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-19 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-19 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-19 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-19 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-19 #vermas:hover {
+  color: #FF9900;
+}
+.producto-19 div {
+  display: flex;
+}
+.producto-19 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-19 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-20 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-20 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-20 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-20 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-20 #vermas:hover {
+  color: #FF9900;
+}
+.producto-20 div {
+  display: flex;
+}
+.producto-20 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-20 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-21 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-21 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-21 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-21 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-21 #vermas:hover {
+  color: #FF9900;
+}
+.producto-21 div {
+  display: flex;
+}
+.producto-21 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-21 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-22 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-22 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-22 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-22 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-22 #vermas:hover {
+  color: #FF9900;
+}
+.producto-22 div {
+  display: flex;
+}
+.producto-22 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-22 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-23 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-23 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-23 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-23 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-23 #vermas:hover {
+  color: #FF9900;
+}
+.producto-23 div {
+  display: flex;
+}
+.producto-23 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-23 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-24 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-24 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-24 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-24 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-24 #vermas:hover {
+  color: #FF9900;
+}
+.producto-24 div {
+  display: flex;
+}
+.producto-24 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-24 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+.producto-25 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 415px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.producto-25 #teclados {
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 140px;
+}
+.producto-25 #sillas {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 140px;
+}
+.producto-25 #vermas {
+  color: #1F8294;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.producto-25 #vermas:hover {
+  color: #FF9900;
+}
+.producto-25 div {
+  display: flex;
+}
+.producto-25 img {
+  margin-left: 10px;
+  height: 103px;
+  cursor: pointer;
+}
+.producto-25 p {
+  margin-left: 7px;
+  font-size: small;
+  cursor: pointer;
+}
+
+footer {
+  background-color: red;
+  height: 100vh;
+}
+footer .primero {
+  background-color: #37475A;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: small;
+  cursor: pointer;
+}
+footer .primero:hover {
+  background-color: #425063;
+}
+footer .segundo {
+  background-color: #232F3E;
+  width: 100%;
+  height: 400px;
+  border-bottom: outset 1px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: white;
+  white-space: pre;
+  font-size: small;
+}
+footer .segundo span {
+  font-size: larger;
+  font-weight: bold;
+}
+footer .tercero {
+  background-color: #232F3E;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: small;
+}
+footer .tercero img {
+  width: 90px;
+  height: 40px;
+}
+footer .tercero .idioma {
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+  border: solid 1px white;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  height: 30px;
+}
+footer .tercero div {
+  height: 30px;
+  border: 0.1px outset white;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+footer .cuarto {
+  background-color: #131A22;
+  width: 100%;
+  height: 520px;
+  display: flex;
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-left: 50px;
+  color: gray;
+  white-space: pre;
+  font-size: small;
+}
+footer .cuarto span {
+  font-size: smaller;
+  font-weight: bold;
+  color: #C4C5C6;
+}
+footer .cuarto img {
+  margin-left: 1055px;
+  margin-top: 425px;
+  position: absolute;
+}
+footer .final {
+  flex-direction: row;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 415px;
+  color: white;
+  font-size: small;
+}/*# sourceMappingURL=styles.css.map */
